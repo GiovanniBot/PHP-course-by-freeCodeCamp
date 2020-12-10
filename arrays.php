@@ -10,6 +10,7 @@
     $friends = array('Luma', 'Pedro', 'Caio', 'Diogo');
     $friends[3] = "Daniel"; //value updated.
     $friends[4] = "Eduardo"; //included value.
+    $friends[10] = "Giovanni"; //just a count() test.
     echo $friends[0];
     echo $friends[3];
     echo $friends[4];
