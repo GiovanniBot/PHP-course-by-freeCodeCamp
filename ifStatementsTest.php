@@ -18,29 +18,17 @@
   <?php
     $playerRole = array($_POST['role']);
     print_r($playerRole);
-    if ($playerRole === 'top') {
+    if ($playerRole === top) {
       echo "You can test Darius, it's a nice start to Top lane.";
-    } elseif ($playerRole === 'jg') {
+    } elseif ($playerRole === jg) {
       echo "Try Rammus and be free to run all the map in 3 seconds.";
-    } elseif ($playerRole === 'mid') {
+    } elseif ($playerRole === mid) {
       echo "You can test Annie, it's a good way to burn your enemies patience.";
-    } elseif ($playerRole === 'adc') {
-      echo "ADC in 2020... nonono"
+    } elseif ($playerRole === adc) {
+      echo "ADC in 2020... nonono";
     } else {
       echo "Support is everything.";
     }
-
-
-
-
-
-     ($playerRole === 'jg'){
-      echo "Try Rammus and be free to run all the map in 3 seconds.";
-    }
-    else ($playerRole === 'mid'){
-      echo "You can test Annie, it's a good way to burn your enemies patience.";
-    }
-
   ?>
 </body>
 </html>
