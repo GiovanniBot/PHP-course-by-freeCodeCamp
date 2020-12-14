@@ -8,13 +8,16 @@
 <body>
   <?php
     $isMale = false;
-    if ($isMale){
-      echo "Put on your underwear!";
+    $isTall = false;
+    if ($isMale && $isTall){
+      echo "You are a tall male";
+    } elseif ($isMale && !$isTall) {
+      echo "You are male but not tall";
+    } elseif (!$isMale && $isTall) {
+      echo "You are tall but not a male";
+    } else {
+      echo "You are not male and not tall";
     }
-    else {
-      echo "Put your panties on!";
-    }
-    return;
   ?>
 </body>
 </html>
