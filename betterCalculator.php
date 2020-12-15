@@ -7,9 +7,9 @@
   <body>
     <h1>Four Operations Calculator</h1>
     <form action="betterCalculator.php" method="post">
-        First Number:<br><input type="number" step="0.1" name="num1"><br>
+        First Number:<br><input type="number" step="0.001" name="num1"><br>
         OP: <br><input type="text" name="op"><br>
-        Second Number:<br><input type="number" step="0.1" name="num2"><br>
+        Second Number:<br><input type="number" step="0.001" name="num2"><br>
         <input type="submit">
     </form>
     <?php
