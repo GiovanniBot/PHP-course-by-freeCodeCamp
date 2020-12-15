@@ -19,11 +19,11 @@
     $_POST['role'];
     foreach($_POST['role'] as $value){
       if($value == "top"){
-        echo "For Top lane you can test Darius, it's a nice start. ";
+        echo "For Top lane you can test Darius, it's a nice start. <br>";
       } elseif ($value == "jg"){
-        echo "In Jungle, try Rammus and be free to run all the map in 3 seconds. ";
+        echo "In Jungle, try Rammus and be free to run all the map in 3 seconds. <br>";
       } elseif ($value == "mid"){
-        echo "For Mid lane you can test Annie, it's a good way to burn your enemies patience. ";
+        echo "For Mid lane you can test Annie, it's a good way to burn your enemies patience. <br>";
       } elseif ($value == "adc"){
         echo "ADC in 2020... nonono. ";
       } else {
