@@ -11,8 +11,27 @@
       <input type="submit">
     </form>
     <?php
-    $grade = $_POST["grade"];
-    echo $grade;
+    $grade= $_POST["grade"];
+    $grade = strtolower($grade);
+    switch($grade){
+      case "a":
+        echo "You did amazing!";
+        break;
+      case "b":
+        echo "You did pretty good.";
+        break;
+      case "c":
+        echo "You did poorly.";
+        break;
+      case "d":
+        echo "You did very bad.";
+        break;
+      case "f":
+        echo "YOU FAIL!";
+        break;
+      default:
+        echo "Invalid Grade.";
+    };
     ?>
   </body>
 </html>
