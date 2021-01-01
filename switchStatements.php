@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Switch Statements</title>
   </head>
   <body>
     <form action="switchStatements.php" method="post">
