@@ -21,7 +21,13 @@
       $book2->author = "Tolkien";
       $book2->pages = 322;
 
-      echo $book1->author;
+      $book3 = new Book;
+      $book3->title = "The Hobbit";
+      $book3->author = "Tolkien";
+      $book3->pages = 260;
+      $book3->img = "../images/hobbit-img.jpg"
+
+      echo $book3->title;
     ?>
   </body>
 </html>
