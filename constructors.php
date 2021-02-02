@@ -10,7 +10,6 @@
         var $title;
         var $author;
         var $pages;
-
         function __construct($aTitle, $aAuthor, $aPages){
           $this->title = $aTitle;
           $this->author = $aAuthor;
@@ -19,7 +18,7 @@
       }
       $book1 = new Book("Harry Potter", "JK Rowling", 280);
       $book2 = new Book("Lord Of The Rings", "Tolkien", 322);
-
+      $book3 = new Book("The Hobbit", "Tolkien", 260);
       echo $book1->author;
     ?>
   </body>
